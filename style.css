@@ -1,0 +1,12 @@
+.blog{
+    background-color: aquamarine;
+    border: 5px solid tomato;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    text-align: justify;
+    box-shadow: 10px 10px 10px;
+}
+#form{
+    margin-top: 20px;
+}
