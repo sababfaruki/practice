@@ -10,3 +10,45 @@
 #form{
     margin-top: 20px;
 }
+video{
+    border: 5px solid tomato;
+}
+audio{
+    margin: 10px;
+    border: 5px solid red;
+    border-radius: 50px;
+}
+nav > ul > li {
+    display: inline;
+    margin: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+nav > li {
+    text-decoration: none;
+}
+nav > ul{
+    display: flex;
+}
+nav li{
+    list-style: none;
+}
+nav li a {
+    text-decoration: none;
+    color: black;
+}
+nav li:hover{
+    background-color: rgb(110, 110, 110);
+}
+nav li .dropdown{
+    display: none;
+    position: absolute;
+    background-color: tomato;
+}
+nav li:hover .dropdown{
+    display: block;
+}
+footer{
+    text-align: center;
+    font-size: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}

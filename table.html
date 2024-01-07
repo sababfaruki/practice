@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table{
+            border-collapse: collapse;
+        }
+        td,th{
+            border: 3px solid black;
+            padding: 5px 10px;
+        }
+        h2{
+            margin: 0;
+        }
+        nav > ul > li {
+    display: inline;
+    margin: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+nav > li {
+    text-decoration: none;
+}
+nav > ul{
+    display: flex;
+}
+nav li{
+    list-style: none;
+}
+nav li a {
+    text-decoration: none;
+    color: black;
+}
+nav li:hover{
+    background-color: rgb(110, 110, 110);
+}
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="My Web Site.html">Visit</a></li>
+                <li><a href="sadman.html">Practices</a></li>
+                <li><a href="table.html">Table</a></li>
+                <li><a href="form.html">Form</a></li>
+                <li>About Me</li>
+            </ul>
+        </nav>
+    </header>
+    <h1>HTML Table</h1>
+    <table>
+        <caption><h2>Employee Salary Table</h2></caption>
+        <thead>
+            <tr>
+                <th>No.</th>
+                <th>Name</th>
+                <th>Company</th>
+                <th>Salary</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Bill Gates</td>
+                <td>Microsoft</td>
+                <td>1000</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Steve Jobs</td>
+                <td>Apple</td>
+                <td>1200</td>
+            </tr>   
+            <tr>
+                <td>3</td>
+                <td>Larry Page</td>
+                <td>Google</td>
+                <td>1100</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Mark Zukerburg</td>
+                <td>Facebook</td>
+                <td>1300</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <td colspan="4">Total Employee : 4</td>
+        </tfoot>
+    </table>
+    <ul>
+        <ul>
+            <li>Table: table</li>
+            <li>Table Head: thead</li>
+            <li>Table Body:tbody</li>
+            <li>Table Footer: tfoot</li>
+            <li>Table row: tr</li>
+            <li>Table data : td</li>
+            <li>th</li>
+            <li>caption</li>
+        </ul>
+    </ul>
+</body>
+</html>
